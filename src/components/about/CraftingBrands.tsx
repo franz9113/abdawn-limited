@@ -6,7 +6,7 @@ const CraftingBrands = () => {
   return (
     <section className="bg-black py-32 px-8 relative overflow-hidden">
       {/* Dramatic Fire Background */}
-      <div className="absolute inset-0 opacity-40 bg-[url('@/assets/fire-smoke.webp')] bg-cover bg-center" />
+      <div className="absolute inset-0 opacity-40 bg-cover bg-center" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
