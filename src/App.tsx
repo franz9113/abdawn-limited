@@ -9,7 +9,7 @@ import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
 import Mission from '@/components/Mission';
 import BackToTopButton from '@/components/BackToTop';
-import ScrollToTop from '@/components/ScrolltoTop';
+import ScrollToTop from '@/components/ScrollToTop';
 
 function App() {
   return (
