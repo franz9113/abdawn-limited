@@ -30,8 +30,6 @@ function App() {
             } />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            
-            {/* Updated to match your SpiritCard links */}
             <Route path="/collection/:productSlug" element={<ProductDetail />} />
 
             <Route path="*" element={<NotFound />} />

@@ -1,33 +1,47 @@
 @import "tailwindcss";
 
+@layer components {
+  .nav-link {
+    @apply text-[11px] uppercase tracking-[0.2em] text-white/70 hover:text-[#c5a059] transition-colors duration-300;
+  }
+  
+  .heading-luxury {
+    @apply font-serif text-5xl md:text-7xl tracking-tighter leading-tight text-white;
+  }
+
+  .text-gold-accent {
+    @apply text-[#c5a059] italic;
+  }
+
+  .subheading-caps {
+    @apply text-[#c5a059] uppercase tracking-[0.5em] text-[10px] font-bold;
+  }
+}
+
 @theme {
   --color-bandit-blue: #00AEEF;
   --color-cocky-yellow: #FFD700;
   --color-limited-cyan: #A5F3FC;
-  --color-brand-dark: #121212;
+  --color-brand-dark: #0a0a0a; /* Updated to match your #0a0a0a sections */
 }
 
 :root {
   font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   color-scheme: dark;
-  background-color: #121212;
+  background-color: #0a0a0a;
   color: #ffffff;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
   min-height: 100vh;
-  background-color: #121212;
+  width: 100%;
+  background-color: #0a0a0a;
+  /* Smooth scrolling for that premium feel */
+  scroll-behavior: smooth;
 }
 
 #root {
   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
 }

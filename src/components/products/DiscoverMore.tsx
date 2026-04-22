@@ -25,7 +25,7 @@ const DiscoverMore = ({ currentSlug, accentColor }: DiscoverMoreProps) => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {otherSpirits.map((spirit) => (
-            <Link key={spirit.id} to={`/product/${spirit.slug}`} className="group flex flex-col items-center">
+            <Link key={spirit.id} to={`/collection/${spirit.slug}`} className="group flex flex-col items-center">
               <div className="relative mb-6 aspect-square w-full max-w-sm flex items-center justify-center">
                 <img 
                   src={spirit.image} 

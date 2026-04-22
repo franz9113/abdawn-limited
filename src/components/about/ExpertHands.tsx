@@ -27,9 +27,9 @@ const ExpertHands = () => {
 
         {/* Text Content Below Images */}
         <div className="max-w-4xl">
-          <h2 className="text-black text-5xl md:text-7xl font-black uppercase tracking-tighter leading-[0.85] mb-8">
+         <h2 className="text-black text-4xl sm:text-5xl md:text-7xl font-black uppercase tracking-tighter leading-tight mb-8">
             Extraordinary Brands <br /> In Expert Hands
-          </h2>
+         </h2>
           <p className="text-black/80 text-xl font-medium leading-relaxed max-w-2xl">
             Abdawn Limited expertly curates extraordinary spirit brands, providing 
             partners and patrons access to superior, locally-loved and 
